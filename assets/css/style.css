@@ -33,6 +33,10 @@ h3 {
   color: #cccccc;
 }
 
+.img-logo {
+  max-width: 100%;
+}
+
 .padding-spacing {
   padding-top: 50px;
 }
@@ -84,4 +88,22 @@ h3 {
   color: #8a8a8a;
   font-size: 13px;
   font-weight: 400;
+}
+
+/* Mobile fixes for footer */
+@media (max-width: 1200px) {
+  #tomaz {
+  margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .min-margin-spacing {
+  margin-top: 20px;
+  margin-left: 15px;
+  }
+
+  .margin-spacing {
+  margin-top: 20px;
+  }
 }
